@@ -1,0 +1,33 @@
+{
+	"name": "nickjbedford/json-response-laravel",
+	"description": "Defines a uniform JSON response structure for Laravel 6+ applications.",
+	"minimum-stability": "stable",
+	"type": "library",
+    "keywords": [
+		"json", "api", "rest"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "nickbedford",
+			"email": "email@example.com"
+		}
+	],
+	"require": {
+		"php": ">=7.4",
+		"laravel/framework": ">=6",
+        "nickjbedford/json-response": "*",
+		"ext-json": "*"
+	},
+	"require-dev": {
+        "phpunit/phpunit": "*"
+	},
+    "autoload": {
+        "psr-4": {
+            "YetAnother\\Laravel\\": "src/"
+        },
+        "files": [
+			"src/helpers.php"
+        ]
+    }
+}
