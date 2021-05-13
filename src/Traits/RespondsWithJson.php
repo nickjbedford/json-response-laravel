@@ -13,7 +13,7 @@
 		 * @param mixed|null $data An optional data payload for the client.
 		 * @return JsonResponse
 		 */
-		public function withSuccess($data = null): JsonResponse
+		public function jsonSuccess($data = null): JsonResponse
 		{
 			return JsonResponse::success($data);
 		}
